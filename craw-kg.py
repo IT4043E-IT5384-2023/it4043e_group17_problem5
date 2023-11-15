@@ -43,7 +43,7 @@ with open("multi_wallets.json", "w") as f:
         if sum(record['dailyNumberOfTransactions'].values()) == 0:
             continue
         for chain in chains:
-            if chain in a['frequencyOfDappTransactionsInEachChain'].keys():
+            if chain in record['frequencyOfDappTransactionsInEachChain'].keys():
                 break
         else:
             continue

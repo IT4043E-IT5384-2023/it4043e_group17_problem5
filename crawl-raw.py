@@ -9,7 +9,7 @@ raw_url = "mongodb://etlReaderAnalysis:etl_reader_analysis__Gr2rEVBXyPWzIrP@34.1
 
 raw_session = MongoClient(raw_url)
 
-with open("wallet-address.json", "w") as f:
+with open("wallet-address.json") as f:
     address_set = json.load(f)
 
 chains = ['ethereum_blockchain_etl', 'blockchain_etl', 'polygon_blockchain_etl']
