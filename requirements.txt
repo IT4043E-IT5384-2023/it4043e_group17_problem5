@@ -1,0 +1,8 @@
+requests
+kafka-python
+schedule
+pyspark
+google-cloud-storage
+flask
+web3
+py-evm
